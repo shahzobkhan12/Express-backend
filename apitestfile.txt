@@ -1,0 +1,27 @@
+requrl -> http://localhost:3000/
+res ->  hello world
+
+------------------------------------------------
+requrl ->http://localhost:3000/api/products
+res ->
+[
+  {
+    "id": 0,
+    "title": " Chinos Pant",
+    "price": 1000,
+    "description": "string",
+    "category": "Pant",
+    "image": "http://example.com"
+  }
+]
+--------------------------------------------------
+
+requrl -> http://localhost:3000/api/users
+res ->
+[
+  {
+    "Name": "darwaish",
+    "Email": "darwaish@gmail.com",
+    "Password": "!@345"
+  }
+]
